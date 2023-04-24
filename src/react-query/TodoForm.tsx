@@ -29,8 +29,9 @@ const TodoForm = () => {
           <input ref={ref} type="text" className="form-control" />
         </div>
         <div className="col">
-          <button disabled={addTodo.isLoading} className="btn btn-primary">
-            {addTodo.isLoading ? 'Adding...' : 'Add'}
+          <button className="btn btn-primary">
+            {/* {addTodo.isLoading ? 'Adding...' : 'Add'} */}
+            Add
           </button>
         </div>
       </form>
